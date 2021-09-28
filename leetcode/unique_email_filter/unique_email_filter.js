@@ -48,4 +48,3 @@ function onHasPlusSignIgnoreAfterward(localName) {
 
 const result = filterEmails(inputEmail);
 const expected = 2;
-console.log("You answer is \t", result === expected);
