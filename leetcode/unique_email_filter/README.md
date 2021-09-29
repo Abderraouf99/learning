@@ -14,3 +14,35 @@ For example, "m.y+name@email.com" will be forwarded to "my@email.com".
 It is possible to use both of these rules at the same time.
 
 Given an array of strings emails where we send one email to each email[i], return the number of different addresses that actually receive mails.
+
+# Examples
+
+### Example 01
+
+```
+Input: emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
+Output: 2
+Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails.
+```
+
+### Example 02
+
+```
+Input: emails = ["a@leetcode.com","b@leetcode.com","c@leetcode.com"]
+Output: 3
+```
+
+# Constraints
+
+```
+
+Constraints:
+
+1 <= emails.length <= 100
+1 <= emails[i].length <= 100
+email[i] consist of lowercase English letters, '+', '.' and '@'.
+Each emails[i] contains exactly one '@' character.
+All local and domain names are non-empty.
+Local names do not start with a '+' character.
+
+```
