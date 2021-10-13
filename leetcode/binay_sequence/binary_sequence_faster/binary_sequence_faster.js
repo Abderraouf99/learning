@@ -1,7 +1,7 @@
 function countBinarySequenceFast(s) {
   let count = 0; // count of binary sequences
-  let currentCharCounter = 1;
-  let previousCharCounter = 0;
+  let currentCharCounter = 1; // current similar char counter
+  let previousCharCounter = 0; // previous similar char counter
   for (let i = 1; i < s.length; i++) {
     if (s[i] === s[i - 1]) {
       currentCharCounter++;
