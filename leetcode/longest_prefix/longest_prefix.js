@@ -7,7 +7,7 @@ function longestPrefix(strs) {
   for (let j = 1; j <= strs.length - 1; j++) {
     const word = strs[j];
     if (word === "") return "";
-    const currentWordLength = word.length; // 4
+    const currentWordLength = word.length;
     const currentCommonPrefixLength = commonPrefix.length; //6
     if (currentWordLength > currentCommonPrefixLength) {
       for (let i = 0; i < currentCommonPrefixLength; i++) {
