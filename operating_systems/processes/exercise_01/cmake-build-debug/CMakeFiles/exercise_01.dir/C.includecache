@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/abderraoufbenchoubane/Documents/learning/operating_systems/processes/exercise_01/main.c
+stdio.h
+-
+unistd.h
+-
+sys/wait.h
+-
+

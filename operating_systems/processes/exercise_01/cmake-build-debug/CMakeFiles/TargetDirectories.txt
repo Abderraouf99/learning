@@ -1,0 +1,3 @@
+/Users/abderraoufbenchoubane/Documents/learning/operating_systems/processes/exercise_01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/abderraoufbenchoubane/Documents/learning/operating_systems/processes/exercise_01/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/abderraoufbenchoubane/Documents/learning/operating_systems/processes/exercise_01/cmake-build-debug/CMakeFiles/exercise_01.dir
